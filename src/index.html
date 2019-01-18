@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Map</title>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgkQk68IFd1BrTCRJxs_5GRlESXpy9gN4"
+  async defer></script>
+</head>
+<body>
+  <div id="map"></div>
+  <div class="container">
+    <div class="cityLocation">
+      <label for="lonCord">Enter a longitude:</label>
+      <input id="lonCord" type="text">
+      <label for="latCord">Enter a latitude:</label>
+      <input id="latCord" type="text">
+      <button class="btn-success" id="cityLocation">Get your city!</button>
+    </div>
+
+    
+        <div class="errors"></div>
+        <div class="showCity"></div>
+        <div class="showTemp"></div>
+
+
+    <div class="list">
+      <ul>
+        <li>Hawaii "lon": -156.5,"lat": 20.75</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- <script>
+  var map;
+  function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+  center: {lat: -34.397, lng: 150.644},
+  zoom: 8
+});
+}
+</script> -->
+
+</body>
+</html>
