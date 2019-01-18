@@ -1,14 +1,17 @@
-import './styles.css';
 import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { WeatherService } from './../src/weather-service.js';
+import './styles.css';
+// import oceanPhoto from './../images/ocean.jpg';
 // import { Map } from './../src/map.js';
 // const loadGoogleMapsApi = require('load-google-maps-api')
 // import { changeImage } from './../src/image.js';
 
 
 $(document).ready(function() {
+  // var ocean = document.getElementById('oceanImg');
+  // ocean.src = oceanPhoto;
   //  let myLatLng = {lat: -25.363, lng: 131.044};
   //  let mapElement = document.getElementById('map');
   //  let map, marker = null;

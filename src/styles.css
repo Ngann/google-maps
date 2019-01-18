@@ -5,9 +5,11 @@
 }
 /* Optional: Makes the sample page fill the window. */
 html, body {
+  color: white;
   height: 80%;
   margin: 50px;
   padding: 20px;
+  background-image: url("https://images-assets.nasa.gov/image/A%20Galactic%20Spectacle_4862916839_o/A%20Galactic%20Spectacle_4862916839_o~medium.jpg");
 }
 
 .container {
